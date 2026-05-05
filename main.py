@@ -5,7 +5,7 @@ client = ModbusTcpClient('127.0.0.1', port=502)
 client.connect()
 
 # temperature array
-test_temps = [20, 25, 28, 30, 26, 24, 22, 26, 30, 15]
+test_temps = [20, 25, 28, 30, 26, 24, 22, 26, 30, 15, 19, 15]
 
 for temp in test_temps:
     # write temp value to initial address
